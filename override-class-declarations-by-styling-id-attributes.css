@@ -1,0 +1,22 @@
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue;
+  }
+
+  /*Id is used to denote by # in style element.
+  Id gets the preference over class.*/
+  #orange-text{
+    color:orange;
+  }
+</style>
+
+
+<h1 id="orange-text" class="pink-text blue-text">Hello World!</h1>

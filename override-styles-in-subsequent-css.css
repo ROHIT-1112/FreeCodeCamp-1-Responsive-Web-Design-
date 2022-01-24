@@ -1,0 +1,20 @@
+<style>
+
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+
+  /*the order of the class declarations in the <style> section is what is important. The second declaration will always take precedence over the first. */
+
+  .pink-text {
+    color: pink;
+  }
+
+  .blue-text{
+    color:blue;
+  }
+
+</style>
+<h1 class="pink-text blue-text">Hello World!</h1>
